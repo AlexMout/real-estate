@@ -46,10 +46,7 @@ var estimation = {
     Averageprice: 0,
 }
 
-//Fonction qui renvoie le prix moyen du mètre carré suivant la ville et le type de bien en allant chercher l'info sur un site spécialisé :
-function GetAveragePrice( city, postal, type ) {
 
-}
 
 //makes the server respond to the '/' route and serving the 'home.ejs' template in the 'views' directory
 app.get( '/', function ( req, res ) {
